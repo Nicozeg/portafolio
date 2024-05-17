@@ -1,0 +1,43 @@
+.skills, .hobbies{
+    margin: 16px;
+}
+
+.skills__title, .hobbies__title{
+    display: flex;
+    justify-content: center;
+    font-family: 'raleway';
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.skills__line, .hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding:16px;
+
+}
+
+.skills__box, .hobbies__box{
+    width: calc(50% - 10px);
+    margin: 10px 0 20px;
+}
+
+.skills__name, .hobbies__name{
+    font-family: 'raleway';
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+@media screen and (min-width: 768px){
+    .skills__line, .hobbies__line{
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 1200px){
+    .skills__box, .hobbies__box{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,9 @@
+.footer__rodape{
+    display: flex;
+    justify-content:center;
+    
+}
+
+.footer__rodape p{
+    margin-right: 8px;
+}

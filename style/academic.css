@@ -1,0 +1,44 @@
+.academic{
+    margin: 16px;
+}
+.academic__title{
+    font-family: 'raleway';
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.academic__courses__list {
+    list-style-type: none;
+    padding: 0;
+}
+.academic__courses__list>* {
+    margin: 8px;
+}
+.academic__courses__box{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+.academic__courses__item__title{
+    font-family: 'raleway';
+    font-size: 16px;
+    font-weight: 700;
+}
+.academic__courses__item__subtitle{
+    font-family: 'raleway';
+    font-size: 14px;
+    font-weight: 500;
+}
+@media screen and (min-width: 768px){
+    .academic__courses{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 1200px){
+    .academic__courses{
+        margin: 32px 152px;
+        justify-content: space-between;
+    }
+}

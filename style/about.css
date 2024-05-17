@@ -1,0 +1,17 @@
+.about__title{
+    font-family: 'raleway';
+    font-size: 22px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.about__paragraph{
+    font-family: 'raleway';
+    margin: 16px;
+}
+
+@media screen and (min-width: 1200px){
+    .about__container{
+        margin: 32px 152px 32px 152px;
+    }
+}

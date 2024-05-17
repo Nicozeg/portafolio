@@ -1,0 +1,58 @@
+.menu{
+    width: 100vw;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    font-family: 'raleway';
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+.menu__title{
+    padding: 0 15px;
+}
+
+.lista{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .lista{
+        display: block;
+    }
+    .lista__menu{
+        display: none;
+    } 
+    .item__lista__menu__contacto{
+        display: flex;
+        align-items: center;
+        height: 56px;
+        font-family: 'raleway';
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .lista__menu{
+        display: flex;
+        font-family: 'raleway';
+        font-size: 16px;
+        font-weight: 700;
+        align-items: center;
+    }
+    .lista{
+        display: flex;
+    }
+    .lista__menu>*{
+        padding-right: 16px;
+    }
+
+}
