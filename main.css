@@ -1,0 +1,23 @@
+@import url(style/reset.css);
+@import url(style/header.css);
+@import url(style/title.css);
+@import url(style/about.css);
+@import url(style/skills.css);
+@import url(style/academic.css);
+@import url(style/exp.css);
+@import url(style/formcontato.css);
+@import url(style/footer.css);
+
+:root{
+    --color-de-link:#000000;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:var(--color-de-link);
+}
+
